@@ -154,6 +154,7 @@ class _HomePageState extends State<HomePage> {
     AlertDialog alert = AlertDialog(
       title: Text("Create a group"),
       content: TextField(
+        key: Key('typeGroup'),
         onChanged: (val) {
           _groupName = val;
         },
