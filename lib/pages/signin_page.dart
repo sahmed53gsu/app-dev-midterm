@@ -29,6 +29,16 @@ class _SignInPageState extends State<SignInPage> {
   String password = '';
   String error = '';
 
+  AdmobInterstitial interstitial;
+  AdmobReward reward;
+
+  @override
+  void initState(){
+    super.initState();
+    interstitial = AdmobInterstitial(adUnitId: AdManager.interstitialId);
+    interstitial.load();
+  }
+
   _onSignIn() async {
     if (_formKey.currentState.validate()) {
       setState(() {
@@ -155,7 +165,10 @@ class _SignInPageState extends State<SignInPage> {
                       color: Colors.blue,
                       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(30.0)),
                       child: Text('Sign In', style: TextStyle(color: Colors.white, fontSize: 16.0)),
-                      onPressed: () {
+                      onPressed: () async{
+                        if(await interstitial.isLoaded){
+                              interstitial.show();
+                          }
                         _onSignIn();
                       }
                     ),
@@ -172,6 +185,9 @@ class _SignInPageState extends State<SignInPage> {
                       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(30.0)),
                       child: Text('Sign In Anonymously', style: TextStyle(color: Colors.white, fontSize: 16.0)),
                       onPressed: ()  async {
+                        if(await interstitial.isLoaded){
+                              interstitial.show();
+                          }
                         _anonSignin(); 
                       }
                     ),
