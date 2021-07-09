@@ -1,4 +1,4 @@
-# Codelab Chat App with Firebase - Mobile App Dev Summer 2021 HW 2
+# Chat App with Anon Login and Google Ads - Mobile App Dev Summer 2021 Midterm
 
 ## Description
 
