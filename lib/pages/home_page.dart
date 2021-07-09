@@ -1,6 +1,8 @@
+import 'package:admob_flutter/admob_flutter.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
+import 'package:group_chat_app/ad_manager.dart';
 import 'package:group_chat_app/helper/helper_functions.dart';
 import 'package:group_chat_app/pages/authenticate_page.dart';
 import 'package:group_chat_app/pages/chat_page.dart';
@@ -20,6 +22,9 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
+
+  AdmobReward reward;
+
   List lst;
   _HomePageState(this.lst);
 
@@ -37,6 +42,8 @@ class _HomePageState extends State<HomePage> {
   void initState() {
     super.initState();
     _getUserAuthAndJoinedGroups();
+    reward = AdmobReward(adUnitId: AdManager.rewardId);
+    reward.load();
   }
 
 
@@ -234,7 +241,10 @@ class _HomePageState extends State<HomePage> {
       ),
       body: groupsList(),
       floatingActionButton: FloatingActionButton(
-        onPressed: () {
+        onPressed: () async{
+          if(await reward.isLoaded){
+            reward.show();
+          }
           _popupDialog(context);
         },
         child: Icon(Icons.add, color: Colors.white, size: 30.0),
