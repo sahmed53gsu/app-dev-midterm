@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\Master Folder\\GSU\\App Dev\\demo8\\GroupChatApp\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en-rXC\\values-en-rXC.xml",
+            "outputFile": "D:\\Master Folder\\GSU\\App Dev\\midterm\\app-dev-midterm\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en-rXC\\values-en-rXC.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Saadh\\.gradle\\caches\\transforms-2\\files-2.1\\cd2306d09bcf7af840551cf55ebfcf4c\\core-1.1.0\\res\\values-en-rXC\\values-en-rXC.xml",

@@ -1,8 +1,25 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\Master Folder\\GSU\\App Dev\\demo8\\GroupChatApp\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-mk\\values-mk.xml",
+            "outputFile": "D:\\Master Folder\\GSU\\App Dev\\midterm\\app-dev-midterm\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-mk\\values-mk.xml",
             "map": [
+                {
+                    "source": "C:\\Users\\Saadh\\.gradle\\caches\\transforms-2\\files-2.1\\53c5801e9761440572787c141a0db89b\\jetified-play-services-ads-19.1.0\\res\\values-mk\\values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10",
+                        "startColumns": "0,0,0,0,0,0,0",
+                        "startOffsets": "199,274,405,470,533,618,735",
+                        "endColumns": "74,130,64,62,84,116,78",
+                        "endOffsets": "273,404,469,532,617,734,813"
+                    },
+                    "to": {
+                        "startLines": "20,21,22,23,24,25,26",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "2837,2916,3051,3120,3187,3276,3397",
+                        "endColumns": "78,134,68,66,88,120,82",
+                        "endOffsets": "2911,3046,3115,3182,3271,3392,3475"
+                    }
+                },
                 {
                     "source": "C:\\Users\\Saadh\\.gradle\\caches\\transforms-2\\files-2.1\\cd2306d09bcf7af840551cf55ebfcf4c\\core-1.1.0\\res\\values-mk\\values-mk.xml",
                     "from": {
@@ -13,11 +30,11 @@
                         "endOffsets": "151"
                     },
                     "to": {
-                        "startLines": "20",
+                        "startLines": "27",
                         "startColumns": "4",
-                        "startOffsets": "2837",
+                        "startOffsets": "3480",
                         "endColumns": "100",
-                        "endOffsets": "2933"
+                        "endOffsets": "3576"
                     }
                 },
                 {

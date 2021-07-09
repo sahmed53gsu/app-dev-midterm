@@ -1,8 +1,25 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\Master Folder\\GSU\\App Dev\\demo8\\GroupChatApp\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ar\\values-ar.xml",
+            "outputFile": "D:\\Master Folder\\GSU\\App Dev\\midterm\\app-dev-midterm\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ar\\values-ar.xml",
             "map": [
+                {
+                    "source": "C:\\Users\\Saadh\\.gradle\\caches\\transforms-2\\files-2.1\\53c5801e9761440572787c141a0db89b\\jetified-play-services-ads-19.1.0\\res\\values-ar\\values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10",
+                        "startColumns": "0,0,0,0,0,0,0",
+                        "startOffsets": "199,266,375,437,498,571,669",
+                        "endColumns": "66,108,61,60,72,97,69",
+                        "endOffsets": "265,374,436,497,570,668,738"
+                    },
+                    "to": {
+                        "startLines": "20,21,22,23,24,25,26",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "2690,2761,2874,2940,3005,3082,3184",
+                        "endColumns": "70,112,65,64,76,101,73",
+                        "endOffsets": "2756,2869,2935,3000,3077,3179,3253"
+                    }
+                },
                 {
                     "source": "C:\\Users\\Saadh\\.gradle\\caches\\transforms-2\\files-2.1\\9c003868301879ae75742b3123d9f1a5\\jetified-play-services-basement-17.0.0\\res\\values-ar\\values.xml",
                     "from": {
@@ -30,11 +47,11 @@
                         "endOffsets": "151"
                     },
                     "to": {
-                        "startLines": "20",
+                        "startLines": "27",
                         "startColumns": "4",
-                        "startOffsets": "2690",
+                        "startOffsets": "3258",
                         "endColumns": "100",
-                        "endOffsets": "2786"
+                        "endOffsets": "3354"
                     }
                 },
                 {

@@ -2,6 +2,12 @@
   "configVersion": 2,
   "packages": [
     {
+      "name": "admob_flutter",
+      "rootUri": "file:///C:/Flutter/flutter/.pub-cache/hosted/pub.dartlang.org/admob_flutter-1.0.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.7"
+    },
+    {
       "name": "archive",
       "rootUri": "file:///C:/Flutter/flutter/.pub-cache/hosted/pub.dartlang.org/archive-3.1.2",
       "packageUri": "lib/",
@@ -338,7 +344,7 @@
       "languageVersion": "2.1"
     }
   ],
-  "generated": "2021-07-09T08:52:46.532219Z",
+  "generated": "2021-07-09T17:22:46.601227Z",
   "generator": "pub",
   "generatorVersion": "2.14.0-258.0.dev"
 }

@@ -1,9 +1,16 @@
+import 'package:admob_flutter/admob_flutter.dart';
 import 'package:flutter/material.dart';
+import 'package:group_chat_app/ad_manager.dart';
 import 'package:group_chat_app/helper/helper_functions.dart';
 import 'package:group_chat_app/pages/authenticate_page.dart';
 import 'package:group_chat_app/pages/home_page.dart';
 
-void main() => runApp(MyApp());
+void main(){
+  WidgetsFlutterBinding.ensureInitialized();
+  // Initialize without device test ids
+  Admob.initialize();
+  runApp(MyApp());
+} 
 
 class MyApp extends StatefulWidget {
   @override

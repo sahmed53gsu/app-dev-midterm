@@ -1,3 +1,4 @@
+import 'package:admob_flutter/admob_flutter.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
@@ -7,6 +8,8 @@ import 'package:group_chat_app/services/auth_service.dart';
 import 'package:group_chat_app/services/database_service.dart';
 import 'package:group_chat_app/shared/constants.dart';
 import 'package:group_chat_app/shared/loading.dart';
+
+import '../ad_manager.dart';
 
 class SignInPage extends StatefulWidget {
   final Function toggleView;
@@ -198,6 +201,8 @@ class _SignInPageState extends State<SignInPage> {
                   SizedBox(height: 10.0),
                 
                   Text(error, style: TextStyle(color: Colors.red, fontSize: 14.0)),
+
+                  AdmobBanner(adUnitId: AdManager.bannerId, adSize: AdmobBannerSize.BANNER)
                 ],
               ),
             ],

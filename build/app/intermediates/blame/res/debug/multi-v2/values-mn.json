@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\Master Folder\\GSU\\App Dev\\demo8\\GroupChatApp\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-mn\\values-mn.xml",
+            "outputFile": "D:\\Master Folder\\GSU\\App Dev\\midterm\\app-dev-midterm\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-mn\\values-mn.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Saadh\\.gradle\\caches\\transforms-2\\files-2.1\\1060cd8109e4552d28b8dc6f32638487\\play-services-base-17.1.0\\res\\values-mn\\values.xml",
@@ -30,11 +30,11 @@
                         "endOffsets": "151"
                     },
                     "to": {
-                        "startLines": "20",
+                        "startLines": "27",
                         "startColumns": "4",
-                        "startOffsets": "2809",
+                        "startOffsets": "3406",
                         "endColumns": "100",
-                        "endOffsets": "2905"
+                        "endOffsets": "3502"
                     }
                 },
                 {
@@ -52,6 +52,23 @@
                         "startOffsets": "1271",
                         "endColumns": "208",
                         "endOffsets": "1475"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Saadh\\.gradle\\caches\\transforms-2\\files-2.1\\53c5801e9761440572787c141a0db89b\\jetified-play-services-ads-19.1.0\\res\\values-mn\\values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10",
+                        "startColumns": "0,0,0,0,0,0,0",
+                        "startOffsets": "199,270,379,446,513,596,702",
+                        "endColumns": "70,108,66,66,82,105,65",
+                        "endOffsets": "269,378,445,512,595,701,767"
+                    },
+                    "to": {
+                        "startLines": "20,21,22,23,24,25,26",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "2809,2884,2997,3068,3139,3226,3336",
+                        "endColumns": "74,112,70,70,86,109,69",
+                        "endOffsets": "2879,2992,3063,3134,3221,3331,3401"
                     }
                 }
             ]
