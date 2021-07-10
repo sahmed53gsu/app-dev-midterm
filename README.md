@@ -31,3 +31,4 @@ This app is a simple app that allows users to send chat messages. Users login wi
 * Integration test video: https://youtu.be/HBJmvoXXZ_I
 * Android demo - Ads and Anon functionality: https://youtu.be/uqhOunde8RI
 * iOS demo - Ads and Anon functionality: https://youtu.be/uqhOunde8RI
+* Web demo: https://youtu.be/aXnJkMbbEvA
